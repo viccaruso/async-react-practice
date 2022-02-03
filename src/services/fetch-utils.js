@@ -23,3 +23,11 @@ export async function fetchAllDogs() {
 
   return checkError(response);
 }
+
+export async function fetchAllPresidents() {
+  const response = await client
+    .from('presidents')
+    .select();
+
+  return checkError(response);
+}
