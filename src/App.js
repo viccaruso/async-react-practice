@@ -1,7 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import { getAllPokemon } from './services/fetch-utils';
+import { useState } from 'react';
 
 function App() {
+  const [arrOfPokemon, setArrOfPokemon] = useState([]);
+  
   return (
     <div className="App">
       <header className="App-header">
