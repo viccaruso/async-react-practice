@@ -1,0 +1,9 @@
+.president-list {
+  width: 20%;
+  height: fit-content;
+}
+
+.president {
+  border: 1px solid black;
+  margin: 10px 10px;
+}
