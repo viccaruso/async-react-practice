@@ -7,3 +7,11 @@ export async function fetchAllPokemon() {
 
   return checkError(response);
 }
+
+export async function fetchAllMotorcycles() {
+  const response = await client
+    .from('motorcycles')
+    .select();
+
+  return checkError(response);
+}
