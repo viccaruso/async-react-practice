@@ -1,6 +1,6 @@
 import { checkError, client } from './client';
 
-export async function getAllPokemon() {
+export async function fetchAllPokemon() {
   const response = await client
     .from('pokemon-db')
     .select();
