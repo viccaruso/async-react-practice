@@ -15,3 +15,11 @@ export async function fetchAllMotorcycles() {
 
   return checkError(response);
 }
+
+export async function fetchAllDogs() {
+  const response = await client
+    .from('dogs')
+    .select();
+
+  return checkError(response);
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import Pokemon from './Pokemon';
+import Pokemon from './Pokemon.jsx';
 import './Pokemon.css';
 
 export default function PokemonList({ arrOfPokemon }) {
