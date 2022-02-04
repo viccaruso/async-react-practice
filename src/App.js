@@ -42,10 +42,23 @@ function App() {
 
   return (
     <div className="App">
-      <PokemonList arrOfPokemon={arrOfPokemon} />
-      <MotorcyclesList arrOfMotorcycles={arrOfMotorcycles} />
-      <DogList arrOfDogs={arrOfDogs} />
-      <PresidentList arrOfPresidents={arrOfPresidents} />
+      <div>
+        <h1>Pokémans</h1>
+        <PokemonList arrOfPokemon={arrOfPokemon} />
+      </div>
+      <div>
+        <h1>Motorscoots</h1>
+        <MotorcyclesList arrOfMotorcycles={arrOfMotorcycles} />
+      </div>
+      <div>
+        <h1>Doggos</h1>
+        <DogList arrOfDogs={arrOfDogs} />
+      </div>
+      <div>
+        <h1>Presidentials</h1>
+        <PresidentList arrOfPresidents={arrOfPresidents} />
+      </div>
+
     </div>
   );
 }
