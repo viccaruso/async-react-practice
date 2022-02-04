@@ -3,6 +3,6 @@ import App from './App';
 
 test('renders learn react link', async () => {
   render(<App />);
-  const linkElement = true;
-  expect(linkElement).toBeTruthy();
+  const truething = true;
+  expect(truething).toBeTruthy();
 });
